@@ -72,6 +72,7 @@ Python incluye todos los operadores básicos y más:
   ```
 
   Importante: **`input()` siempre devuelve un `str`**. Si el usuario escribe un número y queremos usarlo como entero, hay que convertirlo con `int()`, sabiendo que un valor no numérico causará una excepción `ValueError`.
+  
 * **Comentarios:** Para **comentarios de una línea** se usa `#`. Python ignora todo lo que sigue a `#` en la misma línea:
 
   ```python
