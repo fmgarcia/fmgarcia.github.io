@@ -38,20 +38,25 @@ Python incluye todos los operadores básicos y más:
   c = 7 // 2  # 3
   d = 2 ** 3  # 8
   ```
+
 * **Comparación:** `==`, `!=`, `>`, `<`, `>=`, `<=`. Retornan booleanos (`True`/`False`):
 
   ```python
   print(5 == 5)  # True
   print(5 < 3)   # False
   ```
+
 * **Lógicos:** `and`, `or`, `not` (en Python las palabras reservadas son las palabras en inglés). Por ejemplo: `if x > 0 and x < 10:`.
+  
 * **Asignación:** `=`, y combinados como `+=`, `-=`, `*=`, etc. (p.ej. `x += 1` es equivalente a `x = x + 1`).
+  
 * **Pertenencia:** `in`, `not in`, para probar si un elemento está en una colección:
 
   ```python
   lista = [1, 2, 3]
   print(2 in lista)    # True
   ```
+
 * **Identidad:** `is`, `is not` (verifica si dos nombres referencian el *mismo* objeto en memoria, no sólo valores iguales).
 
   Python optimiza enteros pequeños (por ejemplo -5 a 256) para que referencien el mismo objeto, por eso `x = 100; y = 100; x is y` puede ser `True`. Sin embargo, en general para comparar valores iguales se usan `==`.
@@ -483,8 +488,10 @@ Para escribir código Python claro y mantenible, se siguen convenciones y estilo
   ```
 
   Estas cadenas son accesibles en tiempo de ejecución vía el atributo `.__doc__` del objeto y herramientas de documentación pueden extraerlas (PEP 257 define las convenciones de docstring).
+
   * **Convenciones de nombres:** Se mencionó PEP 8 (ver arriba). Además, se usa `_variable` como convención de “privado” y `__var` para nombre-mangling. Los nombres de módulos deben ser cortos y minúsculos (`mimodulo.py`).
-  * * **Estructura de proyectos:** En proyectos más grandes se suelen organizar carpetas, por ejemplo:
+  
+  * **Estructura de proyectos:** En proyectos más grandes se suelen organizar carpetas, por ejemplo:
 
   ```
   mi_proyecto/

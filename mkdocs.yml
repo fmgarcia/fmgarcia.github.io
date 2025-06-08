@@ -49,9 +49,9 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@james-willett
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/willettjames
+      link: https://www.linkedin.com/in/fmgarcia27/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@fmgarcia
 
 copyright: Copyright &copy; 2025 Francisco García
