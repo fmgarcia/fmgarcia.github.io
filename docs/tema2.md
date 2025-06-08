@@ -483,8 +483,8 @@ Para escribir código Python claro y mantenible, se siguen convenciones y estilo
   ```
 
   Estas cadenas son accesibles en tiempo de ejecución vía el atributo `.__doc__` del objeto y herramientas de documentación pueden extraerlas (PEP 257 define las convenciones de docstring).
-* **Convenciones de nombres:** Se mencionó PEP 8 (ver arriba). Además, se usa `_variable` como convención de “privado” y `__var` para nombre-mangling. Los nombres de módulos deben ser cortos y minúsculos (`mimodulo.py`).
-* **Estructura de proyectos:** En proyectos más grandes se suelen organizar carpetas, por ejemplo:
+  * **Convenciones de nombres:** Se mencionó PEP 8 (ver arriba). Además, se usa `_variable` como convención de “privado” y `__var` para nombre-mangling. Los nombres de módulos deben ser cortos y minúsculos (`mimodulo.py`).
+  * * **Estructura de proyectos:** En proyectos más grandes se suelen organizar carpetas, por ejemplo:
 
   ```
   mi_proyecto/
