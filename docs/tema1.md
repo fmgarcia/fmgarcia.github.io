@@ -1,4 +1,4 @@
-# Programación en Inteligencia Artificial con Python
+# 1. Introducción a la Programación en Inteligencia Artificial
 
 ## 1. Definición de programa informático
 
