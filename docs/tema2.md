@@ -554,6 +554,7 @@ Para desarrollar en Python existen varias herramientas:
   ```
 
   Una vez activado, instalar paquetes con `pip install paquete` los deja sólo en ese entorno. El documento oficial explica que *“un entorno virtual contiene un intérprete de Python específico y librerías necesarias para soportar un proyecto... aislados de otros entornos y del sistema”*.
+
 * **Gestión de paquetes:** Python usa `pip` para instalar paquetes desde el repositorio PyPI. Se suele usar un archivo `requirements.txt` o herramientas de empaquetado (`setuptools`, `poetry`) para especificar dependencias.
 * **Otras herramientas:** Linters como `flake8`, formateadores como `black`, y herramientas de documentación (`Sphinx`) son comunes en equipos profesionales. Sistemas de control de versiones (Git) son estándar en desarrollo de software.
 
