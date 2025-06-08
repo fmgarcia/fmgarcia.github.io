@@ -1,6 +1,6 @@
 site_name: My Docs
 site_url: https://fmgarcia.github.io
-nva:
-	- Home: index.md
+nav:
+  - Home: index.md
 theme:
   name: material
