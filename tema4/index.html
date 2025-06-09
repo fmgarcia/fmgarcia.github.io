@@ -1,0 +1,903 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://sitename.example/tema4/">
+      
+      
+        <link rel="prev" href="../tema2/">
+      
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>4. Modelos Pre-entrenados en IA y cloud-computing - Programación en Intenligencia Artificial</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#4-modelos-pre-entrenados-en-ia-y-cloud-computing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Programación en Intenligencia Artificial" class="md-header__button md-logo" aria-label="Programación en Intenligencia Artificial" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Programación en Intenligencia Artificial
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4. Modelos Pre-entrenados en IA y cloud-computing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Programación en Intenligencia Artificial" class="md-nav__button md-logo" aria-label="Programación en Intenligencia Artificial" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    Programación en Intenligencia Artificial
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admonitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admonitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-tabs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content tabs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagram-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagram Examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tema1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Introducción a la Programación en Inteligencia Artificial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tema2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Fundamentos de Programación en Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    4. Modelos Pre-entrenados en IA y cloud-computing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Modelos Pre-entrenados en IA y cloud-computing
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-modelos-pre-entrenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Modelos Pre-entrenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositorios-de-modelos-pre-entrenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repositorios de Modelos Pre-entrenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descarga-instalacion-y-adaptacion-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descarga, Instalación y Adaptación de Modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-ia-en-la-nube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Servicios de IA en la Nube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso-y-ejemplos-practicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso y Ejemplos Prácticos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-modelos-pre-entrenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Modelos Pre-entrenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositorios-de-modelos-pre-entrenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repositorios de Modelos Pre-entrenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descarga-instalacion-y-adaptacion-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descarga, Instalación y Adaptación de Modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicios-de-ia-en-la-nube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Servicios de IA en la Nube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso-y-ejemplos-practicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso y Ejemplos Prácticos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="4-modelos-pre-entrenados-en-ia-y-cloud-computing">4. Modelos Pre-entrenados en IA y cloud-computing</h1>
+<p>Los <strong>modelos pre-entrenados</strong> son redes neuronales entrenadas con grandes volúmenes de datos genéricos (texto, imágenes, audio, etc.) antes de ser aplicados a tareas específicas. Estos modelos han capturado <strong>representaciones</strong> de conocimiento útil (patrones, relaciones semánticas, características visuales) que pueden reutilizarse. En lugar de entrenar un modelo desde cero, se parte de uno ya entrenado y se ajusta a la tarea concreta (aprendizaje por transferencia). Entre sus <strong>ventajas</strong> destacan:</p>
+<ul>
+<li><strong>Ahorro de tiempo y recursos:</strong> se evita el costoso entrenamiento inicial con grandes datos.</li>
+<li><strong>Mejora de precisión:</strong> al aprovechar conocimiento previo de datos extensos y diversos, suelen obtener mejores resultados que entrenamientos desde cero.</li>
+<li><strong>Versatilidad:</strong> permiten adaptar un único modelo base a múltiples aplicaciones mediante técnicas como afinamiento (fine-tuning).</li>
+<li><strong>Accesibilidad:</strong> democratizan la IA, ya que con pocos datos o recursos limitados se pueden lograr modelos competitivos.</li>
+</ul>
+<p>En la siguiente figura se ilustra cómo el aprendizaje profundo (deep learning, DL) es un subconjunto del <em>machine learning</em>, que a su vez es parte de la <em>inteligencia artificial</em>; los modelos pre-entrenados suelen ser de DL (p. ej. redes neuronales profundas): 
+<img alt="Diagrama IA-ML-DL" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AI-ML-DL.svg/543px-AI-ML-DL.svg.png" />.</p>
+<h2 id="tipos-de-modelos-pre-entrenados">Tipos de Modelos Pre-entrenados</h2>
+<p>En función de los datos y tareas, existen diversas categorías de modelos pre-entrenados:</p>
+<ul>
+<li>
+<p><strong>Modelos de Lenguaje (LLMs):</strong> Redes de gran tamaño entrenadas con corpus textuales masivos. Ejemplos notables son GPT (OpenAI), BERT y T5 (Google). Estos modelos aprenden a predecir palabras o convertir texto en vectores de características durante el pre-entrenamiento; luego se ajustan (fine-tuning) con datos específicos para tareas (clasificación, traducción, pregunta-respuesta). La fase de preentrenamiento suele implicar tareas como <em>enmascarar palabras</em> o <em>predicción de token siguiente</em>, mientras que el ajuste fino adapta el modelo a una nueva tarea particular.</p>
+</li>
+<li>
+<p><strong>Visión por Computador:</strong> Modelos entrenados con imágenes. Por ejemplo, <strong>YOLO</strong> (You Only Look Once) para detección de objetos, <strong>EfficientNet</strong> para clasificación de imágenes y <strong>ResNet</strong>, <strong>MobileNet</strong>, etc. Recientemente, modelos como <strong>CLIP</strong> (de OpenAI) aprenden conceptos visuales a partir de descripciones en texto; CLIP puede aplicarse a tareas de clasificación visual dando los nombres de las categorías que se desean reconocer, logrando capacidades de <em>zero-shot</em> similares a GPT-3.</p>
+</li>
+<li>
+<p><strong>Audio y Voz:</strong> Modelos de reconocimiento y procesamiento de audio. Por ejemplo, <strong>Whisper</strong> (OpenAI) es un modelo de transcripción de voz a texto entrenado con grandes cantidades de audio multilingüe. Otro ejemplo es <strong>Wav2Vec</strong> (de Meta), modelo auto-supervisado de reconocimiento de voz. Estos modelos capturan características de señales sonoras que luego pueden afinarse para tareas específicas (reconocimiento de emociones, transcripción, detección de palabras clave).</p>
+</li>
+<li>
+<p><strong>Multimodales:</strong> Modelos que procesan simultáneamente diferentes modalidades (texto, imagen, audio, video). Además de CLIP, destacan <strong>DALL·E</strong> (OpenAI) para generación de imágenes a partir de texto, <strong>FLAVA</strong> (Facebook) o <strong>VirTex</strong> (NVIDIA) para visión-texto, y las versiones multimodales de GPT-4 (texto e imágenes). Estos modelos combinan los conocimientos de lenguaje natural y visión/otros datos, permitiendo tareas como búsqueda de imágenes por texto, descripción automática de imágenes o generación creativa de contenido.</p>
+</li>
+</ul>
+<h2 id="repositorios-de-modelos-pre-entrenados">Repositorios de Modelos Pre-entrenados</h2>
+<p>Existen plataformas y bibliotecas donde se pueden descargar miles de modelos pre-entrenados:</p>
+<ul>
+<li>
+<p><strong>Hugging Face (Model Hub):</strong> Biblioteca líder en NLP y ML. Ofrece una amplia colección de modelos (BERT, GPT, T5, Whisper, Stable Diffusion, etc.) en formato fácil de usar. El <em>Model Hub</em> de Hugging Face es un repositorio público con modelos entrenados (p. ej. BLOOM, BERT multilingüe). Se descargan localmente con la librería <code>transformers</code> (ej. <code>from transformers import AutoModel; AutoModel.from_pretrained("bert-base-cased")</code>).</p>
+</li>
+<li>
+<p><strong>TensorFlow Hub:</strong> Biblioteca de Google con módulos y modelos listos para reutilizar. Permite usar con pocas líneas modelos populares (BERT, FastText, Faster R-CNN, etc.). Por ejemplo:</p>
+</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">tensorflow_hub</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">hub</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">model</span> <span class="o">=</span> <span class="n">hub</span><span class="o">.</span><span class="n">KerasLayer</span><span class="p">(</span><span class="s2">&quot;https://tfhub.dev/google/nnlm-en-dim128/2&quot;</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">embeddings</span> <span class="o">=</span> <span class="n">model</span><span class="p">([</span><span class="s2">&quot;The rain in Spain.&quot;</span><span class="p">])</span>
+</span></code></pre></div>
+<p>Como se describe en la documentación de TensorFlow Hub, basta con instalar <code>tensorflow_hub</code> y cargar el módulo deseado (texto, imágenes, audio). Además, Google ofrece un <strong>TensorFlow Model Zoo</strong> especializado en visión, con modelos para detección, segmentación, etc..</p>
+<ul>
+<li>
+<p><strong>PyTorch Hub (Torchvision):</strong> PyTorch dispone de modelos pre-entrenados para visión en su paquete <code>torchvision</code>. Por ejemplo, instanciando <code>torchvision.models.resnet50(pretrained=True)</code> descarga pesos en ImageNet automáticamente. También existe <code>torch.hub.load()</code> para obtener modelos de repositorios públicos.</p>
+</li>
+<li>
+<p><strong>Otros repositorios y “Model Zoos”:</strong> Existen repositorios como <strong>ONNX Model Zoo</strong>, <strong>Model Zoo</strong> de MXNet, TensorFlow Model Garden, y sitios como Papers with Code. En general, los hubs de modelos (p. ej. Hugging Face, TensorFlow Hub, PyTorch Hub) y los model zoos reducen drásticamente el esfuerzo de desarrollo al ofrecer un inicio rápido con modelos sofisticados.</p>
+</li>
+</ul>
+<h2 id="descarga-instalacion-y-adaptacion-de-modelos">Descarga, Instalación y Adaptación de Modelos</h2>
+<p>Para usar un modelo pre-entrenado, típicamente se instala la biblioteca correspondiente (por ejemplo, <code>pip install transformers</code> o <code>pip install tensorflow_hub</code>). Luego se carga el modelo deseado y sus pesos. Por ejemplo, con Hugging Face:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">transformers</span><span class="w"> </span><span class="kn">import</span> <span class="n">pipeline</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">clf</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">(</span><span class="s2">&quot;sentiment-analysis&quot;</span><span class="p">)</span>  <span class="c1"># carga un modelo pre-entrenado de análisis de sentimiento</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">clf</span><span class="p">(</span><span class="s2">&quot;La IA mejora nuestras vidas.&quot;</span><span class="p">))</span>
+</span></code></pre></div>
+<p>Para TensorFlow Hub se instalan módulos con <code>hub.KerasLayer</code>. En PyTorch se emplea <code>torch.hub.load</code> o <code>torchvision.models</code> para descargar y usar pesos pre-entrenados.</p>
+<p>Una vez descargado, el modelo puede <strong>ajustarse o modificarse</strong>:</p>
+<ul>
+<li><strong>Ajuste fino (fine-tuning):</strong> Se reentrena parcialmente el modelo con datos de la tarea específica, manteniendo gran parte de los pesos originales. El modelo se “afina” modificando sus parámetros para adaptarse mejor al dominio objetivo.</li>
+<li><strong>Ingeniería de <em>prompts</em> (prompt engineering):</strong> En el caso de LLMs, se diseñan y refinan las instrucciones o preguntas (<em>prompts</em>) que se le dan al modelo para obtener respuestas concretas. Una buena formulación de prompt puede guiar al modelo de lenguaje hacia el resultado deseado sin necesidad de entrenamiento adicional.</li>
+<li><strong>Aprendizaje por transferencia (Transfer Learning):</strong> El modelo pre-entrenado actúa como base de conocimiento. Al reutilizarlo se aprovecha el “aprendizaje” de datos anteriores, reduciendo tiempo y recursos. Por ejemplo, se puede congelar la mayoría de capas (bloquear sus pesos) y solo entrenar nuevas capas finales con datos locales. Esto permite obtener buenos resultados aún con conjuntos de datos pequeños.</li>
+<li><strong>Destilación de conocimiento (Knowledge Distillation):</strong> Técnica para crear un modelo más compacto. Un modelo grande (“profesor”) guía a uno más pequeño (“estudiante”) imitando sus salidas. La destilación entrena al estudiante con las predicciones del profesor, logrando que el modelo ligero aprenda el mismo comportamiento. Esto es útil para desplegar modelos eficientemente en dispositivos limitados.</li>
+</ul>
+<h2 id="servicios-de-ia-en-la-nube">Servicios de IA en la Nube</h2>
+<p>Las principales plataformas cloud ofrecen servicios gestionados de IA basados en modelos pre-entrenados y AutoML. A continuación se describen los más relevantes:</p>
+<ul>
+<li>
+<p><strong>Google Cloud Platform:</strong></p>
+</li>
+<li>
+<p><strong>Vertex AI:</strong> Plataforma unificada de ML que simplifica todo el ciclo de vida (datos, entrenamiento, despliegue). Permite desarrollar y escalar modelos de IA empresariales. Incluye herramientas para preparar datos, entrenar modelos personalizados (TensorFlow, PyTorch, AutoML) e implementar inferencias.</p>
+</li>
+<li><strong>AutoML:</strong> Con AutoML de Google se pueden entrenar modelos personalizados de alta calidad con poca experiencia en ML. Ofrece soluciones “sin código” para visión, video, texto, traducción, etc.</li>
+<li><strong>Vision AI:</strong> Servicio de visión cognitiva con API que automatiza tareas de análisis de imágenes y vídeo. Se accede a modelos avanzados para detección de objetos, OCR, etiquetado de imágenes, etc.. Con Vision AI se pueden extraer texto de documentos, detectar rostros o analizar escenas de manera sencilla.</li>
+<li>
+<p><strong>Dialogflow:</strong> Plataforma de NLP para crear agentes conversacionales (chatbots). Usa comprensión de lenguaje natural para interpretar la intención del usuario y generar respuestas. Se integra con canales de voz y chat populares.</p>
+</li>
+<li>
+<p><strong>Amazon Web Services (AWS):</strong></p>
+</li>
+<li>
+<p><strong>SageMaker (AI):</strong> Plataforma de ML totalmente gestionada que unifica datos, análisis e IA. Permite preparar datos, entrenar y desplegar modelos de ML a escala. SageMaker proporciona entornos de notebooks, algoritmos predefinidos y administración integrada de modelos.</p>
+</li>
+<li><strong>Rekognition:</strong> Servicio de visión que automatiza el reconocimiento de imágenes y vídeo sin experiencia en ML. Permite detectar objetos, texto, escenas y rostros (reconocimiento facial) en imágenes/vídeos. Incluye API fáciles de usar para analizar archivos en Amazon S3.</li>
+<li><strong>Comprehend:</strong> Servicio de NLP que extrae insights de texto. Identifica entidades, sentimientos, lenguaje, temas y relaciones en documentos no estructurados. Facilita análisis de opiniones, categorización de texto y generación de resúmenes automáticos.</li>
+<li><strong>Lex:</strong> Servicio para construir interfaces conversacionales de voz y texto. Utiliza la tecnología del motor de Alexa para crear chatbots inteligentes sin necesidad de experiencia profunda en ML. Lex gestiona el flujo de diálogo y reconoce intenciones del usuario mediante NLP/ASR.</li>
+<li><strong>Translate:</strong> Servicio de traducción automática neuronal de idiomas. Permite traducir texto entre decenas de idiomas de manera escalable. Por ejemplo, <em>Amazon Translate</em> ofrece traducción de alta calidad bajo demanda.</li>
+<li>
+<p><strong>Otros servicios:</strong> AWS incluye también <strong>Polly</strong> (texto-a-voz), <strong>Transcribe</strong> (voz a texto), <strong>Comprehend Medical</strong> (NLP para datos de salud), etc., todos aprovechando modelos pre-entrenados internos.</p>
+</li>
+<li>
+<p><strong>Microsoft Azure:</strong></p>
+</li>
+<li>
+<p><strong>Azure Machine Learning:</strong> Servicio PaaS para el ciclo de vida ML extremo a extremo. Facilita la creación, entrenamiento, despliegue y administración de modelos con herramientas colaborativas. Compatible con frameworks populares e incluye capacidades de AutoML y MLOps.</p>
+</li>
+<li>
+<p><strong>Cognitive Services (Azure AI):</strong> Conjunto de APIs preconstruidas para visión, lenguaje, voz, decisión, etc. Por ejemplo, <strong>Computer Vision</strong> analiza imágenes (OCR, clasificación, segmentación), <strong>Text Analytics</strong> extrae sentimiento, entidades y clave de texto, <strong>Speech Services</strong> convierte voz en texto y viceversa. Estos servicios permiten añadir rápidamente funcionalidades de IA a aplicaciones sin entrenar modelos. Azure AI ofrece además <strong>Azure OpenAI Service</strong> (acceso a modelos GPT de OpenAI en la nube de Microsoft).</p>
+</li>
+<li>
+<p><strong>IBM Cloud (Watson):</strong></p>
+</li>
+<li>
+<p><strong>Watson Assistant:</strong> Plataforma para crear asistentes virtuales conversacionales. Permite definir intenciones y flujos de diálogo con NLP integrado. Está basada en la misma tecnología de IBM Watson y admite despliegues en cloud o on-premises.</p>
+</li>
+<li><strong>Watson Natural Language Understanding (NLU):</strong> Extrae significado de texto (sentimiento, conceptos, entidades, relaciones) usando deep learning.</li>
+<li><strong>Watson Speech to Text:</strong> Convierte audio en texto mediante modelos de reconocimiento de voz entrenados. Soporta múltiples idiomas y se puede personalizar para dominios específicos.</li>
+<li>
+<p><strong>Otros Watson:</strong> Servicios para traducción (Language Translator), análisis de imágenes (Visual Recognition), extracción de conocimientos (Discovery), etc.</p>
+</li>
+<li>
+<p><strong>OpenAI (API):</strong></p>
+</li>
+<li>
+<p>Ofrece acceso a modelos de vanguardia como <strong>GPT-4</strong> (texto y visión multimodal), <strong>Codex</strong> (generación de código), <strong>DALL·E</strong> (imágenes a partir de texto) y <strong>Whisper</strong> (voz a texto). Estos modelos se acceden mediante una API REST.</p>
+</li>
+<li>La <strong>documentación oficial</strong> de la API describe casos de uso (chatbots, generación de texto, soporte al desarrollador, etc.), ejemplos de código y buenas prácticas.</li>
+<li><strong>Precios y licencias:</strong> El uso de la API se cobra por consumo de tokens. Por ejemplo, GPT-4.1 cobra aproximadamente 2 USD por 1M de tokens de entrada y 8 USD por 1M de tokens de salida. OpenAI gestiona versiones de modelo y requisitos de licencia en su portal. (Los modelos de OpenAI son propiedad de OpenAI y se usan bajo licencia comercial).</li>
+</ul>
+<p>A continuación se muestra un resumen de servicios principales por proveedor (no exhaustivo):</p>
+<table>
+<thead>
+<tr>
+<th>Plataforma</th>
+<th>Servicios destacados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>GCP</strong></td>
+<td>Vertex AI, AutoML, Vision AI, Dialogflow</td>
+</tr>
+<tr>
+<td><strong>AWS</strong></td>
+<td>SageMaker, Rekognition, Comprehend, Lex, Translate</td>
+</tr>
+<tr>
+<td><strong>Azure</strong></td>
+<td>Azure ML, Computer Vision, Speech, Language, Translator</td>
+</tr>
+<tr>
+<td><strong>IBM Watson</strong></td>
+<td>Assistant, NLU, Speech-to-Text, Language Translator</td>
+</tr>
+<tr>
+<td><strong>OpenAI</strong></td>
+<td>GPT-4, Codex, DALL·E, Whisper (vía API)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="casos-de-uso-y-ejemplos-practicos">Casos de Uso y Ejemplos Prácticos</h2>
+<p>Los modelos pre-entrenados y servicios cloud pueden aplicarse en infinidad de escenarios. A modo de ejemplo:</p>
+<ul>
+<li><strong>Clasificación de texto con modelos pre-entrenados:</strong> usando Hugging Face Transformers se puede clasificar opiniones o detectar spam con pocas líneas de código. Por ejemplo:</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">transformers</span><span class="w"> </span><span class="kn">import</span> <span class="n">pipeline</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">sentiment_analyzer</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">(</span><span class="s2">&quot;sentiment-analysis&quot;</span><span class="p">)</span> 
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">result</span> <span class="o">=</span> <span class="n">sentiment_analyzer</span><span class="p">(</span><span class="s2">&quot;La inteligencia artificial está revolucionando la tecnología.&quot;</span><span class="p">)</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># e.g. [{&#39;label&#39;: &#39;POSITIVE&#39;, &#39;score&#39;: 0.99}]</span>
+</span></code></pre></div>
+<p>Este código carga un modelo entrenado en análisis de sentimiento y evalúa una frase.</p>
+<ul>
+<li><strong>Detección de objetos en imágenes:</strong> se puede usar un servicio en la nube o un modelo local. Por ejemplo, con AWS Rekognition en Python (bastan credenciales configuradas):</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">boto3</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">client</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s2">&quot;rekognition&quot;</span><span class="p">)</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;imagen.jpg&quot;</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">img</span><span class="p">:</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    <span class="n">resp</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">detect_labels</span><span class="p">(</span><span class="n">Image</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Bytes&quot;</span><span class="p">:</span> <span class="n">img</span><span class="o">.</span><span class="n">read</span><span class="p">()})</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">label</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">resp</span><span class="p">[</span><span class="s1">&#39;Labels&#39;</span><span class="p">]]</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>  <span class="c1"># e.g. [&#39;Person&#39;, &#39;Bicycle&#39;, &#39;Helmet&#39;, ...]</span>
+</span></code></pre></div>
+<p>Este fragmento envía la imagen a Rekognition y recibe etiquetas detectadas.</p>
+<ul>
+<li><strong>Análisis de imágenes con Google Vision AI:</strong> usando la librería de cliente de GCP:</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">google.cloud</span><span class="w"> </span><span class="kn">import</span> <span class="n">vision</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">client</span> <span class="o">=</span> <span class="n">vision</span><span class="o">.</span><span class="n">ImageAnnotatorClient</span><span class="p">()</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;imagen.jpg&quot;</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">img</span><span class="p">:</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="n">content</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">image</span> <span class="o">=</span> <span class="n">vision</span><span class="o">.</span><span class="n">Image</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="n">content</span><span class="p">)</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">label_detection</span><span class="p">(</span><span class="n">image</span><span class="o">=</span><span class="n">image</span><span class="p">)</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">l</span><span class="o">.</span><span class="n">description</span> <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">label_annotations</span><span class="p">]</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>  <span class="c1"># e.g. [&#39;mountain&#39;, &#39;snow&#39;, &#39;landscape&#39;, ...]</span>
+</span></code></pre></div>
+<p>Con Vision AI se obtienen etiquetas, texto (OCR), rostros y otros atributos sin entrenar modelos propios.</p>
+<ul>
+<li><strong>Chatbot conversacional con GPT-4:</strong> mediante la API de OpenAI y su biblioteca Python:</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">openai</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="s2">&quot;TU_API_KEY&quot;</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">resp</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gpt-4o&quot;</span><span class="p">,</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;¿Quién escribió Cien años de soledad?&quot;</span><span class="p">}]</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="p">)</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</span></code></pre></div>
+<p>Esto consulta a GPT-4 y devuelve la respuesta generada (“Gabriel García Márquez”).</p>
+<p>Estos ejemplos ilustran cómo, con pocos pasos, se aprovechan modelos pre-entrenados o servicios cloud para tareas de <strong>NLP</strong>, <strong>visión por computador</strong>, <strong>voz</strong> y otros. La combinación de modelos potentes y recursos en la nube acelera el desarrollo de aplicaciones de IA avanzadas. Cada proveedor ofrece además <strong>documentación</strong>, <strong>tutoriales</strong> y SDKs detallados para integrar estos servicios, así como mecanismos de <strong>control de versiones</strong> y <strong>seguimiento de costos</strong> (por ejemplo, alertas de presupuesto en la nube o límites de token en las API).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../tema2/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 2. Fundamentos de Programación en Python">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                2. Fundamentos de Programación en Python
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Francisco García
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/fmgarcia27/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@fmgarcia" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
