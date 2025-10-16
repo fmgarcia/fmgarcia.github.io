@@ -7,7 +7,8 @@ Los **modelos pre-entrenados** son redes neuronales entrenadas con grandes volú
 * **Versatilidad:** permiten adaptar un único modelo base a múltiples aplicaciones mediante técnicas como afinamiento (fine-tuning).
 * **Accesibilidad:** democratizan la IA, ya que con pocos datos o recursos limitados se pueden lograr modelos competitivos.
 
-En la siguiente figura se ilustra cómo el aprendizaje profundo (deep learning, DL) es un subconjunto del *machine learning*, que a su vez es parte de la *inteligencia artificial*; los modelos pre-entrenados suelen ser de DL (p. ej. redes neuronales profundas): 
+En la siguiente figura se ilustra cómo el aprendizaje profundo (deep learning, DL) es un subconjunto del *machine learning*, que a su vez es parte de la *inteligencia artificial*; los modelos pre-entrenados suelen ser de DL (p. ej. redes neuronales profundas):
+
 ![Diagrama IA-ML-DL](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AI-ML-DL.svg/543px-AI-ML-DL.svg.png).
 
 ## Tipos de Modelos Pre-entrenados
