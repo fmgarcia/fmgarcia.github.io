@@ -1,33 +1,49 @@
-site_name: Programación en Intenligencia Artificial
-site_url: https://sitename.example
+site_name: Francisco García - Portfolio
+site_url: https://fmgarcia.github.io/
+site_description: Portal de proyectos de Francisco García - Inteligencia Artificial, Machine Learning y más
+site_author: Francisco García
+
 theme:
   name: material
+  language: es
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - content.code.annotate
   palette:
-    # Dark Mode
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+        name: Cambiar a modo claro
+      primary: indigo
+      accent: cyan
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        name: Cambiar a modo oscuro
+      primary: indigo
+      accent: deep purple
+
+nav:
+  - 🏠 Inicio: index.md
+  - 📚 Proyectos:
+    - 🤖 Programación en IA: https://fmgarcia.github.io/programacionIA.github.io/
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -46,12 +62,20 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - tables
+  - toc:
+      permalink: true
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/fmgarcia27/
+      name: LinkedIn
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@fmgarcia
+      name: YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/fmgarcia
+      name: GitHub
 
-copyright: Copyright &copy; 2025 Francisco García
+copyright: Copyright &copy; 2026 Francisco García
