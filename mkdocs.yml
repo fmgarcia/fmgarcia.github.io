@@ -17,6 +17,9 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
     - content.code.copy
     - content.code.annotate
   palette:
@@ -40,6 +43,9 @@ nav:
   - 🏠 Inicio: index.md
   - 📚 Proyectos:
     - 🤖 Programación en IA: https://fmgarcia.github.io/programacionIA.github.io/
+    - 🔬 Detección de Tumores: proyectos/deteccion-tumores.md
+    - 🚀 Agencia IA - FMGarcia: proyectos/agencia-ia.md
+  - 📬 Contacto: contacto.md
 
 markdown_extensions:
   - attr_list
@@ -77,5 +83,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/fmgarcia
       name: GitHub
+
+extra_css:
+  - assets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
+  - assets/supabase-form.js
 
 copyright: Copyright &copy; 2026 Francisco García
