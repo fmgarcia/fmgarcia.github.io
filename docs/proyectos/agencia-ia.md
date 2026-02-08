@@ -114,7 +114,7 @@
 
     ¿Tienes un proyecto en mente? Solicita presupuesto sin compromiso.
 
-    [:octicons-arrow-right-24: Contactar](https://agenciaia-web.fmgarcia.com/contacto){ target="_blank" }
+    [:octicons-arrow-right-24: Contactar](https://agenciaia-web.fmgarcia.com/#contact){ target="_blank" }
 
 </div>
 
