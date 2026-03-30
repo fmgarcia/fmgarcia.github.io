@@ -40,21 +40,21 @@ theme:
       accent: deep purple
 
 nav:
-  - 🏠 Inicio: index.md
-  - 📚 Proyectos:
-    - 🤖 Programación en IA: https://fmgarcia.github.io/programacionIA.github.io/
-    - 🔬 Detección de Tumores: proyectos/deteccion-tumores.md
-    - 🚀 Agencia IA - FMGarcia: proyectos/agencia-ia.md
-  - 🎓 Cursos:
-    - 💻 Curso de C# (.NET 9): https://fmgarcia.github.io/CursoNet/
-    - 🧪 Curso de Testing: https://fmgarcia.github.io/CursoTesting/
-  - 📬 Contacto: contacto.md
+  - Inicio: index.md
+  - Proyectos:
+    - Programacion en IA: https://fmgarcia.github.io/programacionIA.github.io/
+    - Deteccion de Tumores: proyectos/deteccion-tumores.md
+    - Agencia IA - FMGarcia: proyectos/agencia-ia.md
+  - Cursos:
+    - Curso de C# (.NET 9): https://fmgarcia.github.io/CursoNet/
+    - Curso de Testing: https://fmgarcia.github.io/CursoTesting/
+  - Contacto: contacto.md
 
 markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemують
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
@@ -94,4 +94,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
   - assets/supabase-form.js
 
-copyright: Copyright &copy; 2026 Francisco García
+copyright: Copyright &copy; 2026 Francisco Garcia
