@@ -48,6 +48,7 @@ nav:
   - Cursos:
     - Curso de C# (.NET 9): https://fmgarcia.github.io/CursoNet/
     - Curso de Testing: https://fmgarcia.github.io/CursoTesting/
+    - Curso de Oracle PL/SQL: https://fmgarcia.github.io/CursoPLSQL/
   - Contacto: contacto.md
 
 markdown_extensions:
