@@ -105,6 +105,38 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 ---
 
+## 🎓 Cursos
+
+<div class="grid cards" markdown>
+
+-   :material-language-csharp:{ .lg .middle } **Curso de C# (.NET 9)**
+
+    ---
+
+    Curso completo de programación en C# con .NET 9, desde los fundamentos hasta temas avanzados como POO, LINQ, async/await y Entity Framework Core.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoNet/){ target="_blank" }
+
+-   :material-test-tube:{ .lg .middle } **Curso de Testing**
+
+    ---
+
+    Aprende testing de software desde cero: pruebas unitarias, de integración, TDD, mocking y buenas prácticas para código de calidad.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoTesting/){ target="_blank" }
+
+-   :material-database:{ .lg .middle } **Curso de Oracle PL/SQL**
+
+    ---
+
+    Curso completo de programación en Oracle PL/SQL: bloques anónimos, variables, cursores, excepciones, procedimientos, funciones, triggers y SQL dinámico. 9 módulos con ejercicios prácticos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoPLSQL/){ target="_blank" }
+
+</div>
+
+---
+
 ## 📩 Recibe las Últimas Novedades
 
 <div class="cta-section">
