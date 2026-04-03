@@ -109,11 +109,11 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 <div class="grid cards" markdown>
 
--   :material-language-csharp:{ .lg .middle } **Curso de C# (.NET 9)**
+-   :material-language-csharp:{ .lg .middle } **Curso de C# (.NET 10)**
 
     ---
 
-    Curso completo de programación en C# con .NET 9, desde los fundamentos hasta temas avanzados como POO, LINQ, async/await y Entity Framework Core.
+    Curso completo de programación en C# con .NET 10, desde los fundamentos hasta temas avanzados como POO, LINQ, async/await y Entity Framework Core.
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoNet/){ target="_blank" }
 
