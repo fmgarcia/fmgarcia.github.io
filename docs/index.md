@@ -133,6 +133,30 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoPLSQL/){ target="_blank" }
 
+-   :material-language-html5:{ .lg .middle } **Curso de HTML5, CSS3 y Bootstrap**
+
+    ---
+
+    Desarrollo web desde cero: HTML5 semántico y accesible, CSS3 moderno, Flexbox, Grid, diseño responsive, animaciones y Bootstrap 5.3. 19 módulos con proyecto final.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoHTMLCSS/){ target="_blank" }
+
+-   :material-language-php:{ .lg .middle } **Curso de PHP 8.5**
+
+    ---
+
+    Curso completo de PHP en su última versión: fundamentos, formularios, sesiones, POO moderna, Composer, PDO, seguridad, APIs REST, PHPUnit y arquitectura MVC. 21 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoPHP/){ target="_blank" }
+
+-   :simple-symfony:{ .lg .middle } **Curso de Symfony 8**
+
+    ---
+
+    Framework Symfony desde cero: rutas, Twig, Doctrine, formularios, validación, seguridad, servicios, Messenger, APIs REST, testing y despliegue. 17 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoSymfony/){ target="_blank" }
+
 </div>
 
 ---

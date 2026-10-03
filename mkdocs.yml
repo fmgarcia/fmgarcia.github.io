@@ -49,6 +49,9 @@ nav:
     - Curso de C# (.NET 10): https://fmgarcia.github.io/CursoNet/
     - Curso de Testing: https://fmgarcia.github.io/CursoTesting/
     - Curso de Oracle PL/SQL: https://fmgarcia.github.io/CursoPLSQL/
+    - Curso de HTML5, CSS3 y Bootstrap: https://fmgarcia.github.io/CursosGithubIO/CursoHTMLCSS/
+    - Curso de PHP 8.5: https://fmgarcia.github.io/CursosGithubIO/CursoPHP/
+    - Curso de Symfony 8: https://fmgarcia.github.io/CursosGithubIO/CursoSymfony/
   - Contacto: contacto.md
 
 markdown_extensions:
