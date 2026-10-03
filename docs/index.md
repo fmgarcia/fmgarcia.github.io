@@ -141,6 +141,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoHTMLCSS/){ target="_blank" }
 
+-   :material-language-javascript:{ .lg .middle } **Curso de JavaScript**
+
+    ---
+
+    JavaScript moderno (ECMAScript 2026) desde cero: fundamentos, POO, asincronía, módulos, DOM, eventos, fetch, APIs del navegador, Node.js, Vite y testing con Vitest. 23 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoJavaScript/){ target="_blank" }
+
 -   :material-language-php:{ .lg .middle } **Curso de PHP 8.5**
 
     ---
