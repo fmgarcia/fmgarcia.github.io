@@ -109,6 +109,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 <div class="grid cards" markdown>
 
+-   :material-language-java:{ .lg .middle } **Curso de Java: Fundamentos de Programación**
+
+    ---
+
+    Programación desde cero con Java 25 LTS para 1º de FP y universidad: algoritmos, estructuras de control, arrays, cadenas, POO completa, excepciones, colecciones, ficheros, UML y JUnit. 22 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoJavaFundamentos/){ target="_blank" }
+
 -   :material-language-csharp:{ .lg .middle } **Curso de C# (.NET 10)**
 
     ---
