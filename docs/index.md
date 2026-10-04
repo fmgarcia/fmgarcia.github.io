@@ -117,6 +117,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoJavaFundamentos/){ target="_blank" }
 
+-   :material-coffee:{ .lg .middle } **Curso de Java Avanzado**
+
+    ---
+
+    Programación funcional, streams, concurrencia, redes, patrones de diseño, testing, JDBC, JPA/Hibernate y Spring Boot 4 (Data JPA, REST, Thymeleaf y Security). 25 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoJavaAvanzado/){ target="_blank" }
+
 -   :material-language-csharp:{ .lg .middle } **Curso de C# (.NET 10)**
 
     ---
