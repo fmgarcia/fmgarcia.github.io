@@ -125,6 +125,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoTesting/){ target="_blank" }
 
+-   :material-database-cog:{ .lg .middle } **Curso de Bases de Datos**
+
+    ---
+
+    Curso exhaustivo para FP y universidad: sistemas de almacenamiento e historia, modelo Entidad/Relación extendido, modelo relacional, normalización y SQL en Oracle (DDL, DML y DCL). 39 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoBasesDatos/){ target="_blank" }
+
 -   :material-database:{ .lg .middle } **Curso de Oracle PL/SQL**
 
     ---
