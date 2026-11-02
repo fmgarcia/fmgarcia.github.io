@@ -5,7 +5,7 @@
 // dirección de destino solo existe allí, nunca en esta web.
 // Pega aquí la URL de la implementación (termina en /exec). Mientras esté
 // vacía, el formulario avisa de que aún no está activo y no envía nada.
-const CONTACTO_URL = '';
+const CONTACTO_URL = 'https://script.google.com/macros/s/AKfycbwQ4wKZF6u98p1gJbXTd4MtJxnTUh3NmicNoJFOysDuEFvrKJjleaaE3jXMFglzM4lC/exec';
 
 (function () {
     function iniciar() {
