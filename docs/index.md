@@ -189,6 +189,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoReact/){ target="_blank" }
 
+-   :simple-nextdotjs:{ .lg .middle } **Curso de Next.js**
+
+    ---
+
+    Next.js 16 full stack: App Router, Server Components, Cache Components, Server Actions, Route Handlers, base de datos con Drizzle, autenticación, testing, seguridad y despliegue, con guía de lo que cambia en Next.js 15. 26 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoNextjs/){ target="_blank" }
+
 -   :material-angular:{ .lg .middle } **Curso de Angular**
 
     ---
