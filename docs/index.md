@@ -89,7 +89,7 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     ---
 
-    Agencia tecnológica especializada en IA, desarrollo de software a medida y transformación digital. Ofrecemos servicios de desarrollo web/móvil, estrategia de producto, consultoría y soluciones basadas en Machine Learning.
+    Mente Neural es una agencia de inteligencia artificial y desarrollo de software que implanta la IA en empresas, puertos, industria y administración pública: desarrollo a medida, estrategia de producto, datos e IA, agentes de IA y consultoría.
 
     [:octicons-arrow-right-24: Ver proyecto](proyectos/agencia-ia.md)
 
