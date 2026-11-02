@@ -165,6 +165,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoHTMLCSS/){ target="_blank" }
 
+-   :material-tailwind:{ .lg .middle } **Curso de Tailwind CSS**
+
+    ---
+
+    Tailwind CSS 4.3 desde cero: utilidades, Flexbox, Grid, responsive, modo oscuro, animaciones, tema y plugins propios, integración con frameworks y migración desde v3, con guía de lo que cambia en la 3.4. 22 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoTailwind/){ target="_blank" }
+
 -   :material-language-javascript:{ .lg .middle } **Curso de JavaScript**
 
     ---
@@ -172,6 +180,22 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
     JavaScript moderno (ECMAScript 2026) desde cero: fundamentos, POO, asincronía, módulos, DOM, eventos, fetch, APIs del navegador, Node.js, Vite y testing con Vitest. 23 módulos.
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoJavaScript/){ target="_blank" }
+
+-   :material-react:{ .lg .middle } **Curso de React**
+
+    ---
+
+    React 19.3 con TypeScript: JSX, hooks, React Compiler, Suspense, Actions, View Transitions, React Router, TanStack Query, formularios, testing, Server Components y Next.js, con guía de novedades por versión. 27 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoReact/){ target="_blank" }
+
+-   :material-angular:{ .lg .middle } **Curso de Angular**
+
+    ---
+
+    Angular 22 desde cero: componentes, señales, router, HttpClient, resources, RxJS, Signal Forms, NgRx, Material, SSR, testing y migración, con guía de lo que no tendrás en la LTS 21. 30 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoAngular/){ target="_blank" }
 
 -   :material-language-php:{ .lg .middle } **Curso de PHP 8.5**
 
