@@ -60,7 +60,9 @@
 }
 
 .cta-form input,
-.cta-form select {
+.cta-form select,
+.cta-form textarea {
+    font-family: inherit;
     width: 100%;
     padding: 0.75rem 1rem;
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -72,12 +74,28 @@
     box-sizing: border-box;
 }
 
-.cta-form input::placeholder {
+.cta-form input::placeholder,
+.cta-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.cta-form textarea {
+    resize: vertical;
+    min-height: 7rem;
+}
+
+/* Campo trampa antispam: fuera de la vista, pero no display:none (algunos bots lo detectan) */
+.cta-form .form-trampa {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .cta-form input:focus,
-.cta-form select:focus {
+.cta-form select:focus,
+.cta-form textarea:focus {
     outline: none;
     border-color: #00e5ff;
     background: rgba(255, 255, 255, 0.15);

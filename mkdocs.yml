@@ -103,7 +103,6 @@ extra_css:
   - assets/extra.css
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
-  - assets/supabase-form.js
+  - assets/contacto-form.js
 
 copyright: Copyright &copy; 2026 Francisco Garcia

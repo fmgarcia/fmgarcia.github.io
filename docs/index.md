@@ -81,7 +81,7 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 <div class="fancy-divider"><span>🚀</span></div>
 
-### 🏢 FMGarcia - Agencia de IA y Desarrollo
+### 🏢 Mente Neural - Agencia de IA y Desarrollo
 
 <div class="grid cards" markdown>
 
@@ -99,7 +99,7 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     Descubre todos los servicios y solicita presupuesto sin compromiso.
 
-    [:octicons-arrow-right-24: Ir a la agencia](https://agenciaia-web.fmgarcia.com/){ target="_blank" }
+    [:octicons-arrow-right-24: Ir a la agencia](https://www.menteneural.com/){ target="_blank" }
 
 </div>
 
@@ -225,33 +225,59 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 ---
 
-## 📩 Recibe las Últimas Novedades
+## 📩 Escríbeme
 
-<div class="cta-section">
-    <h2>🔔 ¡No te pierdas nada!</h2>
-    <p>Suscríbete para recibir actualizaciones sobre nuevos proyectos, tutoriales y recursos sobre IA y desarrollo de software.</p>
-    <form id="newsletter-form" class="cta-form">
+<div class="cta-section" data-contacto>
+    <h2>✉️ ¿Hablamos?</h2>
+    <p>Cuéntame qué tema te interesa más o propón un curso nuevo. Te responderé lo antes posible.</p>
+    <form class="cta-form contacto-form" data-origen="fmgarcia.github.io (inicio)">
         <div class="form-group">
-            <label for="nl-nombre">Nombre *</label>
-            <input type="text" id="nl-nombre" placeholder="Tu nombre" required>
+            <label for="ct-nombre">Nombre *</label>
+            <input type="text" id="ct-nombre" name="nombre" placeholder="Tu nombre" maxlength="100" autocomplete="name" required>
         </div>
         <div class="form-group">
-            <label for="nl-email">Email *</label>
-            <input type="email" id="nl-email" placeholder="tu@email.com" required>
+            <label for="ct-email">Email *</label>
+            <input type="email" id="ct-email" name="email" placeholder="tu@email.com" maxlength="150" autocomplete="email" required>
         </div>
         <div class="form-group">
-            <label for="nl-interes">¿Qué te interesa más?</label>
-            <select id="nl-interes">
-                <option value="todos">Todos los temas</option>
-                <option value="ia-ml">Inteligencia Artificial / ML</option>
-                <option value="desarrollo">Desarrollo de Software</option>
-                <option value="proyectos">Nuevos Proyectos</option>
-                <option value="tutoriales">Tutoriales y Cursos</option>
+            <label for="ct-tema">¿Qué tema te interesa más? *</label>
+            <select id="ct-tema" name="tema" required>
+                <option value="" disabled selected>Elige un tema…</option>
+                <optgroup label="Cursos">
+                    <option>Java: Fundamentos de Programación</option>
+                    <option>Java Avanzado</option>
+                    <option>C# y .NET</option>
+                    <option>Testing de Software</option>
+                    <option>Bases de Datos</option>
+                    <option>Oracle PL/SQL</option>
+                    <option>HTML5, CSS3 y Bootstrap</option>
+                    <option>Tailwind CSS</option>
+                    <option>JavaScript</option>
+                    <option>React</option>
+                    <option>Next.js</option>
+                    <option>Angular</option>
+                    <option>PHP</option>
+                    <option>Symfony</option>
+                    <option>Inteligencia Artificial / Machine Learning</option>
+                </optgroup>
+                <optgroup label="Otros">
+                    <option>Proponer otro curso</option>
+                    <option>Proyectos y colaboraciones</option>
+                    <option>Otro tema</option>
+                </optgroup>
             </select>
         </div>
-        <button type="submit">🚀 Suscribirme</button>
-        <div id="form-message" class="form-message"></div>
-        <p class="privacy-note">🔒 Tu información está segura. No compartimos tus datos con terceros.</p>
+        <div class="form-group">
+            <label for="ct-mensaje">Mensaje *</label>
+            <textarea id="ct-mensaje" name="mensaje" rows="5" maxlength="5000" placeholder="Escribe tu mensaje. Si propones un curso, cuéntame cuál y qué te gustaría aprender." required></textarea>
+        </div>
+        <div class="form-trampa" aria-hidden="true">
+            <label for="ct-web">No rellenes este campo</label>
+            <input type="text" id="ct-web" name="web" tabindex="-1" autocomplete="off">
+        </div>
+        <button type="submit">📨 Enviar mensaje</button>
+        <div class="form-message" role="status"></div>
+        <p class="privacy-note">🔒 Tus datos solo se usan para responderte. No se comparten con terceros.</p>
     </form>
 </div>
 
@@ -285,13 +311,13 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ver GitHub](https://github.com/fmgarcia){ target="_blank" }
 
--   :material-web:{ .lg .middle } **Agencia FMGarcia**
+-   :material-web:{ .lg .middle } **Agencia Mente Neural**
 
     ---
 
     ¿Tienes un proyecto? Solicita presupuesto sin compromiso
 
-    [:octicons-arrow-right-24: Contactar](https://agenciaia-web.fmgarcia.com/#contact){ target="_blank" }
+    [:octicons-arrow-right-24: Contactar](https://www.menteneural.com/){ target="_blank" }
 
 </div>
 
