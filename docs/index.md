@@ -133,6 +133,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoNet/){ target="_blank" }
 
+-   :material-language-c:{ .lg .middle } **Curso de C (C23)**
+
+    ---
+
+    C desde cero hasta nivel profesional: punteros y memoria dinámica, cadenas, estructuras, preprocesador, ficheros, `make` y bibliotecas, estructuras de datos, concurrencia, sistema operativo, pruebas, rendimiento y seguridad. 28 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoC/){ target="_blank" }
+
 -   :material-language-cpp:{ .lg .middle } **Curso de C++ (C++23)**
 
     ---
