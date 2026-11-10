@@ -133,6 +133,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursoNet/){ target="_blank" }
 
+-   :material-language-cpp:{ .lg .middle } **Curso de C++ (C++23)**
+
+    ---
+
+    C++ moderno desde cero hasta nivel profesional: memoria, punteros y RAII, clases y plantillas, concepts, STL y ranges, `std::expected`, concurrencia, corrutinas, módulos, CMake, pruebas y rendimiento. 30 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoCpp/){ target="_blank" }
+
 -   :material-test-tube:{ .lg .middle } **Curso de Testing**
 
     ---
