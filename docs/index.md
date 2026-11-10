@@ -149,6 +149,14 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
     [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoCpp/){ target="_blank" }
 
+-   :material-language-rust:{ .lg .middle } **Curso de Rust (1.99)**
+
+    ---
+
+    Rust desde cero hasta nivel profesional con la edición 2024: propiedad y préstamos, *traits* y tiempos de vida, iteradores, errores, concurrencia, async con tokio, serde, SQLite, API web con Axum, CLI, `unsafe` y FFI. 29 módulos.
+
+    [:octicons-arrow-right-24: Ir al curso](https://fmgarcia.github.io/CursosGithubIO/CursoRust/){ target="_blank" }
+
 -   :material-test-tube:{ .lg .middle } **Curso de Testing**
 
     ---
