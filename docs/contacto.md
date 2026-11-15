@@ -90,12 +90,4 @@
 
     [:octicons-arrow-right-24: Ver GitHub](https://github.com/fmgarcia){ target="_blank" }
 
--   :material-web:{ .lg .middle } **Agencia Mente Neural**
-
-    ---
-
-    ¿Tienes un proyecto? Solicita presupuesto sin compromiso
-
-    [:octicons-arrow-right-24: Contactar](https://www.menteneural.com/){ target="_blank" }
-
 </div>

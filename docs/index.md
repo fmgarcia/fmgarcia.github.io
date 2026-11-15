@@ -79,30 +79,6 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
 
 </div>
 
-<div class="fancy-divider"><span>🚀</span></div>
-
-### 🏢 Mente Neural - Agencia de IA y Desarrollo
-
-<div class="grid cards" markdown>
-
--   :material-domain:{ .lg .middle } **Agencia de Desarrollo e Inteligencia Artificial**
-
-    ---
-
-    Mente Neural es una agencia de inteligencia artificial y desarrollo de software que implanta la IA en empresas, puertos, industria y administración pública: desarrollo a medida, estrategia de producto, datos e IA, agentes de IA y consultoría.
-
-    [:octicons-arrow-right-24: Ver proyecto](proyectos/agencia-ia.md)
-
--   :material-web:{ .lg .middle } **Visitar la Web**
-
-    ---
-
-    Descubre todos los servicios y solicita presupuesto sin compromiso.
-
-    [:octicons-arrow-right-24: Ir a la agencia](https://www.menteneural.com/){ target="_blank" }
-
-</div>
-
 ---
 
 ## 🎓 Cursos
@@ -334,14 +310,6 @@ Este sitio web sirve como **puerta de entrada** a todos mis proyectos públicos,
     Explora todos mis repositorios
 
     [:octicons-arrow-right-24: Ver GitHub](https://github.com/fmgarcia){ target="_blank" }
-
--   :material-web:{ .lg .middle } **Agencia Mente Neural**
-
-    ---
-
-    ¿Tienes un proyecto? Solicita presupuesto sin compromiso
-
-    [:octicons-arrow-right-24: Contactar](https://www.menteneural.com/){ target="_blank" }
 
 </div>
 
